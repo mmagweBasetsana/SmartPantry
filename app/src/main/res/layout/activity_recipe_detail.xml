@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/imgRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="20dp"
+            android:background="#E4E9E2"
+            android:contentDescription="Recipe image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/txtDetailRecipeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tomato Pasta"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#26352A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Required Ingredients"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#26352A" />
+
+        <TextView
+            android:id="@+id/txtDetailIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#68736B"
+            android:lineSpacingExtra="6dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Method"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#26352A" />
+
+        <TextView
+            android:id="@+id/txtDetailMethod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#68736B"
+            android:lineSpacingExtra="6dp" />
+
+        <Button
+            android:id="@+id/btnChooseRecipeImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Choose Recipe Picture"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnBackToRecipes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Back to Recipes"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>
