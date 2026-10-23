@@ -100,6 +100,76 @@ public class RecipeDetailActivity extends AppCompatActivity {
         );
     }
 
+    private int getRecipeImage(String recipeName) {
+        if (recipeName == null) {
+            return 0;
+        }
+
+        switch (recipeName.trim().toLowerCase()) {
+
+            case "blueberry muffins":
+                return R.drawable.blueberry_muffin;
+
+            case "chicken sandwich":
+                return R.drawable.chicken_sandwitch;
+
+            case "tuna sandwich":
+                return R.drawable.tuna_sandwitch;
+
+            case "garlic bread":
+                return R.drawable.garlic_bread;
+
+            case "potato salad":
+                return R.drawable.potato_salad;
+
+            case "cheese toast":
+                return R.drawable.cheese_sandwich;
+
+            case "tuna pasta":
+                return R.drawable.tuna_salad;
+
+            case "banana bread":
+                return R.drawable.banana_bread;
+
+            case "pancake":
+            case "pancakes":
+                return R.drawable.pancake;
+
+            case "blueberry oats smoothie":
+                return R.drawable.blueberry_oatmeal_smoothie;
+
+            case "cheese sandwich":
+                return R.drawable.cheese_sandwich;
+
+            case "coconut chia pudding":
+                return R.drawable.chia_pudding;
+
+            case "creamy spinach":
+                return R.drawable.creamy_spinach;
+
+            case "chicken pasta salad":
+                return R.drawable.chicken_pasta_salad;
+
+            case "meatball beef":
+                return R.drawable.cheeseburger_meatballs;
+
+            case "easy pickle corn":
+                return R.drawable.pickled_corn;
+
+            case "chicken pasta":
+                return R.drawable.chicken_pasta_salad;
+
+            case "tomato pasta":
+                return R.drawable.tomatopasta_salad;
+
+            case "pasta salad":
+                return R.drawable.pasta_salad;
+
+            default:
+                return 0;
+        }
+    }
+
     @Override
     protected void onActivityResult(
             int requestCode,
