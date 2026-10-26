@@ -46,7 +46,7 @@ public class RecipesActivity extends AppCompatActivity {
     private void loadAllRecipes() {
 
         // Load ALL recipes from the database.
-        // Do not filter them using RecipeMatcher.
+
         ArrayList<Recipe> allRecipes =
                 databaseHelper.getAllRecipes();
 

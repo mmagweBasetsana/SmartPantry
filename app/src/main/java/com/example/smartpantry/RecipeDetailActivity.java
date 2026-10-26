@@ -123,31 +123,29 @@ public class RecipeDetailActivity extends AppCompatActivity {
                 return R.drawable.potato_salad;
 
             case "cheese toast":
+            case "cheese sandwich":
                 return R.drawable.cheese_sandwich;
 
             case "tuna pasta":
                 return R.drawable.tuna_salad;
 
             case "banana bread":
-                return R.drawable.banana_bread;
+                return R.drawable.banana_bread_pudding;
 
-            case "pancake":
             case "pancakes":
                 return R.drawable.pancake;
 
             case "blueberry oats smoothie":
-                return R.drawable.blueberry_oatmeal_smoothie;
-
-            case "cheese sandwich":
-                return R.drawable.cheese_sandwich;
+                return R.drawable.blueberry_and_oatmeal_protein_smoothie;
 
             case "coconut chia pudding":
-                return R.drawable.chia_pudding;
+                return R.drawable.chia_pudding_with_strawberries;
 
             case "creamy spinach":
                 return R.drawable.creamy_spinach;
 
             case "chicken pasta salad":
+            case "chicken pasta":
                 return R.drawable.chicken_pasta_salad;
 
             case "meatball beef":
@@ -156,14 +154,14 @@ public class RecipeDetailActivity extends AppCompatActivity {
             case "easy pickle corn":
                 return R.drawable.pickled_corn;
 
-            case "chicken pasta":
-                return R.drawable.chicken_pasta_salad;
-
             case "tomato pasta":
                 return R.drawable.tomatopasta_salad;
 
             case "pasta salad":
                 return R.drawable.pasta_salad;
+
+            case "pasta cheese":
+                return R.drawable.pasta_cheese;
 
             default:
                 return 0;
